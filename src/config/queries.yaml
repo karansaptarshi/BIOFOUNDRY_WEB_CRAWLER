@@ -1,0 +1,20 @@
+# Recommended format: List structure with seed_topics
+# This format is properly supported by YAML parsers and works with the search.py
+
+seed_topics:
+  - seed_topic: "PET hydrolase"
+    target_count: 5
+  - seed_topic: "Retron"
+    target_count: 5
+  - seed_topic: "3-Hydroxypropionic acid"
+    target_count: 5
+  - seed_topic: "R-malate"
+    target_count: 5
+  - seed_topic: "Transaminase"
+    target_count: 5
+  - seed_topic: "Imine reductases"
+    target_count: 5
+  - seed_topic: "HMTase"
+    target_count: 5
+  - seed_topic: "Phytase"
+    target_count: 5

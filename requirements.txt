@@ -1,0 +1,6 @@
+# Core dependencies for Biomni web crawler
+PyYAML>=6.0.0
+groq>=0.4.0
+psycopg2-binary>=2.9.0
+feedparser>=6.0.0
+

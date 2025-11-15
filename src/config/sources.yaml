@@ -1,0 +1,22 @@
+arxiv:
+  base_url: "https://arxiv.org"
+  api_url: "http://export.arxiv.org/api/query"
+
+biorxiv:
+  base_url: "https://www.biorxiv.org"
+  # BioRxiv API base endpoint for details
+  # Full URL format: {api_url}/{start_date}/{end_date}/{cursor}
+  # Example: https://api.biorxiv.org/details/biorxiv/2023-01-01/2025-12-31/0
+  api_url: "https://api.biorxiv.org/details/biorxiv"
+  default_start: "2023-01-01"
+  default_end: "2025-12-31"
+  pagination_step: 100
+  
+
+nih:
+  base_url: "https://www.ncbi.nlm.nih.gov"
+  # NIH Entrez E-utilities API base endpoint
+  # Uses esearch.fcgi for searching and efetch.fcgi for fetching details
+  api_url: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+  # Optional: API key for higher rate limits (get from https://www.ncbi.nlm.nih.gov/account/settings/)
+  # api_key: "YOUR_API_KEY_HERE"

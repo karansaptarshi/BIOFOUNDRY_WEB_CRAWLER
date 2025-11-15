@@ -1,0 +1,24 @@
+# Example queries.yaml file - Recommended format using list structure
+# This format is properly supported by YAML parsers
+
+seed_topics:
+  - seed_topic: "Enzyme engineering 2023 - 2025"
+    target_count: 5
+  - seed_topic: "β‑lactamase mutation fitness datasets"
+    target_count: 5
+  - seed_topic: "RiPP biosynthetic clusters"
+    target_count: 5
+  - seed_topic: "Synthetic pathway optimization patents"
+    target_count: 5
+
+# Alternative: Single topic format
+# seed_topic: "Enzyme engineering 2023 - 2025"
+# target_count: 5
+
+# Alternative: Multiple topics with same target_count
+# seed_topics:
+#   - "Enzyme engineering 2023 - 2025"
+#   - "β‑lactamase mutation fitness datasets"
+#   - "RiPP biosynthetic clusters"
+# target_count: 5
+
